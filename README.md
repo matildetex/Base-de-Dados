@@ -1,2 +1,10 @@
 # Base-de-Dados
-Guiões e Projeto Final de Base de Dados (2º ano, 2º Semestre)
+Projeto Final de Base de Dados (2º ano, 2º Semestre)- Sistema de Gestão de Núcleos
+To Do:
+-views
+-index
+-procedures
+-trigger
+-udfs
+-interface
+-apresentação
