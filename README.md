@@ -1,6 +1,6 @@
 # Base-de-Dados
-Projeto Final de Base de Dados (2º ano, 2º Semestre)- Sistema de Gestão de Núcleos
-To Do:<br />
+Projeto Final de Base de Dados (2º ano, 2º Semestre)- Sistema de Gestão de Núcleos<br />
+To Do:
 -views<br />
 -index<br />
 -procedures<br />
