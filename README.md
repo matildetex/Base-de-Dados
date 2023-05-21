@@ -1,13 +1,13 @@
 # Base-de-Dados
 Projeto Final de Base de Dados (2º ano, 2º Semestre)- Sistema de Gestão de Núcleos
 To Do:
--views
--index
--procedures
--trigger
--udfs
--interface
--apresentação
+-views<br />
+-index<br />
+-procedures<br />
+-trigger<br />
+-udfs<br />
+-interface<br />
+-apresentação<br />
 
 ## Index
 Eventos com determinado número<br />
