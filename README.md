@@ -19,3 +19,9 @@ Os produtos associados a determinado Evento Monetário<br />
 
 ## Views
 Nome, numero, local, data, codigo_event_monet, lucro, numero de trabalhadores e numero de participantes<br />
+
+## Interface
+Coisas que a interface pode ter:<br />
+-> Inserir trabalhadores<br />
+-> Ver evento (incluindo lucro)<br />
+-> 
