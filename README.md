@@ -20,8 +20,8 @@ Nome, numero, local, data, codigo_event_monet, lucro, numero de trabalhadores e 
 
 ## Interface
 -> login<br />
--> acesso à base de dados -> RF pode realizar x operações<br />
-                          -> membro do núcleo<br />
+-> acesso à base de dados -> RF pode realizar X operações e membro do núcleo pode realizar Y operações<br /><br />
+Operações RF:<br />
 -> Ver eventos<br />
 -> Inserir trabalhadores<br />
 -> Ver evento (incluindo lucro)<br />
