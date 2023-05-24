@@ -3,8 +3,6 @@ Projeto Final de Base de Dados (2º ano, 2º Semestre)- Sistema de Gestão de N�
 ---
 To Do:<br />
 ---
--views<br />
--index<br />
 -procedures<br />
 -trigger<br />
 -udfs<br />
@@ -21,7 +19,10 @@ Os produtos associados a determinado Evento Monetário<br />
 Nome, numero, local, data, codigo_event_monet, lucro, numero de trabalhadores e numero de participantes<br />
 
 ## Interface
-Coisas que a interface pode ter:<br />
+-> login<br />
+-> acesso à base de dados -> RF pode realizar x operações<br />
+                          -> membro do núcleo<br />
+-> Ver eventos<br />
 -> Inserir trabalhadores<br />
 -> Ver evento (incluindo lucro)<br />
 -> 
