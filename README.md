@@ -37,19 +37,19 @@ Nome, numero, local, data, codigo_event_monet, lucro, numero de trabalhadores e 
 - Adicionar Produto (Bebida ou Comida) [ver se funfa]<br />
 
 
-Triggers<br />
+## Triggers<br />
 -CC (8 digitos)<br />
 -40 horas do trabalhador<br /><br />
 
 [NAO CONSIGO ELEMINAR O 2]<br />
 
-UDFS<br />
+## UDFS<br />
 -ContarAlimentacao<br />
 -ContarBebidas<br />
 -HorasTrabalhadores (?)<br /><br />
 
 
-NOT FOUND:<br />
+## NOT FOUND:<br />
 -GetPulseiraDetails (SP)<br />
 -SearchTrabalhadorInfo (SP)<br /><br />
 
