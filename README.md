@@ -3,11 +3,8 @@ Projeto Final de Base de Dados (2º ano, 2º Semestre)- Sistema de Gestão de N�
 ---
 To Do:<br />
 ---
--procedures<br />
--trigger<br />
--udfs<br />
--interface<br />
--apresentação<br />
+-dar fix a errozinhos<br />
+-relatorio<br />
 
 ## Index
 Eventos com determinado número<br />
@@ -38,20 +35,20 @@ Nome, numero, local, data, codigo_event_monet, lucro, numero de trabalhadores e 
 
 
 ## Triggers<br />
--CC (8 digitos)<br />
--40 horas do trabalhador<br /><br />
+- CC (8 digitos)<br />
+- 40 horas do trabalhador<br /><br />
 
 [NAO CONSIGO ELEMINAR O 2]<br />
 
 ## UDFS<br />
--ContarAlimentacao<br />
--ContarBebidas<br />
--HorasTrabalhadores (?)<br /><br />
+- ContarAlimentacao<br />
+- ContarBebidas<br />
+- HorasTrabalhadores (?)<br /><br />
 
 
 ## NOT FOUND:<br />
--GetPulseiraDetails (SP)<br />
--SearchTrabalhadorInfo (SP)<br /><br />
+- GetPulseiraDetails (SP)<br />
+- SearchTrabalhadorInfo (SP)<br /><br />
 
 ## Interface<br />
 -> login<br />
