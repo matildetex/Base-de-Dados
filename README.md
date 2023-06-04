@@ -5,6 +5,7 @@ To Do:<br />
 ---
 -Normalização no relatório<br />
 -Adicionar Triggers no ficheiro Triggers<br />
+-ORGANIZAR README<br />
 
 ## Index
 Eventos com determinado número<br />
