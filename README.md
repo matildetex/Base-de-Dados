@@ -3,8 +3,8 @@ Projeto Final de Base de Dados (2º ano, 2º Semestre)- Sistema de Gestão de N�
 ---
 To Do:<br />
 ---
--dar fix a errozinhos<br />
--relatorio<br />
+-Normalização no relatório<br />
+-Adicionar Triggers no ficheiro Triggers<br />
 
 ## Index
 Eventos com determinado número<br />
