@@ -83,33 +83,15 @@ UDFs:
 Views:
 - Informação do Evento
 <br />
-
-Procedures:
-- Adicionar Evento Monetário<br />
-- Adicionar Evento Não Monetário<br />
-- Ver Relatório Geral<br />
-- Verificar Pagamento<br />
-- Adicionar Trabalhador<br />
-- Eliminar trabalhador<br />
-- Ver detalhes trabalhador<br />
-- Editar Trabalhador (Editar Detalhes)<br />
-- Ver externos<br />
-- Ver pulseira por evento<br />
-- Ver Produtos em stock (comida)<br />
-- Ver Produtos em stock (bebida)<br />
-- Ver membros [em progresso]<br />
-- Ver Lucro Total (dinheiro entra, sai e final)<br />
-- Pulseiras adicionar número random [ver se funfa]<br />
-- Adicionar Produto (Bebida ou Comida) [ver se funfa]<br />
 <br />
 
-## O que não está na interface
+## O que não está na interface
 Alguns procedures que foram feitos na base de dados não foram implementados na interface devido a falta de tempo e/ou algumas falhas que surgiam da sua utilização.<br /><br />
 Estes tratam-se de: <br />
-- VerMembros: Mostraria o nome, nº mecanográfico e o número de horas trabalhadas pelos Membros (alunos UA).<br />
-- ObterExternos: Mostra a tabela de Externos a que necessita de pagar, através da inserção do id do RF. O resultado final deste seria o nºCC, o salário por hora e o montante final pago<br />
-- AddPulseira: Introduz x número de pulseiras na tabela Pulseiras, através da inserção do número do evento e número de pulseiras que se pretende introduzir, gerando automaticamente um id para cada. <br />
-- AddComidaEBebida:Introduz Alimento/Bebida na tabela "Produtos", desde que o tipo contenha a palavra "Bebida" ou "Alimentacao"<br />
-<br />
+- **VerMembros**: Mostraria o nome, nº mecanográfico e o número de horas trabalhadas pelos Membros (alunos UA).<br />
+- **ObterExternos**: Mostra a tabela de Externos a que necessita de pagar, através da inserção do id do RF. O resultado final deste seria o nºCC, o salário por hora e o montante final pago<br />
+- **AddPulseira**: Introduz x número de pulseiras na tabela Pulseiras, através da inserção do número do evento e número de pulseiras que se pretende introduzir, gerando automaticamente um id para cada. <br />
+- **AddComidaEBebida**:Introduz Alimento/Bebida na tabela "Produtos", desde que o tipo contenha a palavra "Bebida" ou "Alimentacao"<br />
+
 Note-se que destes 3 o único que nao funcionava integralmente é o VerMembros, em que a quantidade de Membros apresentada não corresponde às linhas da tabela Membros.
 
