@@ -71,5 +71,21 @@ Exemplo:
 <br />
 
 
+## Geral
+Triggers:
+- CC (8 digitos)
+- 40 horas do trabalhador
+
+UDFs:
+- ContarAlimentacao<br />
+- ContarBebidas<br />
+- HorasTrabalhadores (?)<br />
+
+Views:
+- Informação do Evento
+<br />
+<br />
+
 ## O que não está na interface
 Aqui
+
