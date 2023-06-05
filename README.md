@@ -18,7 +18,7 @@ Essa solução trouxe as seguintes vantagens:
 - Aumenta a eficiência: A automatização da atribuição do ID reduz a carga de trabalho e otimiza o processo de inserção na base de dados.
 
 Código:
-```txt
+```sql
 -- adicionar evento monetario
 CREATE PROCEDURE [dbo].[AddEventoMonetario] 
   @numero int, 
