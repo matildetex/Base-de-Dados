@@ -512,3 +512,33 @@ BEGIN
     END
 END
 GO
+
+
+CREATE PROCEDURE dbo.AddPulseira
+	@eventonumero int,
+	@numero_pulseiras int
+AS
+BEGIN
+	BEGIN TRY
+		DECLARE @contador int = 0
+		DECLARE @random_number float
+		DECLARE @codigo_ev_mon int
+		
+		WHILE (@contador < @numero_pulseiras)
+		BEGIN
+			SET @random_number = RAND();
+			SET @codigo_ev_mon = ROUND((@random_number * 2000) + 10000, 0);
+			
+			INSERT INTO GestaoNucleos.Pulseiras (id, evento_numero)
+			VALUES (@codigo_ev_mon, @eventonumero);
+
+			SET @contador = @contador + 1;
+		END;
+	END TRY
+	BEGIN CATCH
+		DECLARE @ErrorMessage NVARCHAR(4000);
+		SET @ErrorMessage = ERROR_MESSAGE();
+		RAISERROR(@ErrorMessage, 16, 1);
+		SELECT ERROR_MESSAGE() AS ErrorMessage;
+	END CATCH
+END;
