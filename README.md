@@ -79,7 +79,6 @@ Triggers:
 UDFs:
 - ContarAlimentacao<br />
 - ContarBebidas<br />
-- HorasTrabalhadores (?)<br />
 
 Views:
 - Informação do Evento
