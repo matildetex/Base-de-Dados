@@ -79,7 +79,6 @@ BEGIN
       INSERT INTO GestaoNucleos.EventosMonetarios(numero, lucro, codigo_ev_mon)
       VALUES (@numero, @lucro, @codigo_ev_mon);
       
-      -- Código adicional, se necessário
     END
     ELSE
     BEGIN
