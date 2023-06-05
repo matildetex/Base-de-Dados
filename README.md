@@ -87,10 +87,10 @@ Views:
 
 ## O que não está na interface
 Alguns procedures que foram feitos na base de dados não foram implementados na interface devido a falta de tempo e/ou algumas falhas que surgiam da sua utilização.<br />
-Estes tratam-se de: <br />
+Estes tratam-se de: <br /><br />
 - VerMembros: Mostraria o nome, nº mecanográfico e o número de horas trabalhadas pelos Membros (alunos UA).<br />
 - ObterExternos: Mostra a tabela de Externos a que necessita de pagar, através da inserção do id do RF. O resultado final deste seria o nºCC, o salário por hora e o montante final pago<br />
 - AddPulseira: Introduz x número de pulseiras na tabela Pulseiras, através da inserção do número do evento e número de pulseiras que se pretende introduzir, gerando automaticamente um id para cada. <br />
-- AddComidaEBebida:Introduz Alimento/Bebida na tabela "Produtos", desde que o tipo contenha a palavra "Bebida" ou "Alimentacao"<br />
+- AddComidaEBebida:Introduz Alimento/Bebida na tabela "Produtos", desde que o tipo contenha a palavra "Bebida" ou "Alimentacao"<br /><br />
 Note-se que destes 3 o único que nao funcionava integralmente é o VerMembros, em que a quantidade de Membros apresentada não corresponde às linhas da tabela Membros.
 
