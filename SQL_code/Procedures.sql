@@ -513,7 +513,7 @@ BEGIN
 END
 GO
 
-
+--Adicionar um número x (escolhido pelo utilizador) de Pulseiras
 CREATE PROCEDURE dbo.AddPulseira
 	@eventonumero int,
 	@numero_pulseiras int
@@ -541,4 +541,36 @@ BEGIN
 		RAISERROR(@ErrorMessage, 16, 1);
 		SELECT ERROR_MESSAGE() AS ErrorMessage;
 	END CATCH
+END;
+
+--Adicionar Comida e Bebida ao Armazém
+CREATE PROCEDURE AddComidaEBebida
+    @codigo INT,
+    @nome VARCHAR(128),
+    @tipo VARCHAR(32),
+    @preco_compra FLOAT,
+    @preco_venda FLOAT,
+    @quantidade INT,
+    @data_validade DATETIME
+AS
+BEGIN
+    BEGIN TRY
+        IF NOT EXISTS (SELECT 1 FROM GestaoNucleos.Produtos WHERE codigo = @codigo)
+        BEGIN
+            IF (CHARINDEX('Bebida', @tipo) > 0 OR CHARINDEX('Alimentacao', @tipo) > 0)
+            BEGIN
+                INSERT INTO GestaoNucleos.Produtos (codigo, nome, tipo, preco_compra, preco_venda, quantidade, data_validade)
+                VALUES (@codigo, @nome, @tipo, @preco_compra, @preco_venda, @quantidade, @data_validade);
+            END
+            ELSE
+            BEGIN
+               PRINT 'Tipo Não existente, inserir tipo BEBIDA ou ALIMENTAÇÃO';
+            END
+        END
+    END TRY
+    BEGIN CATCH
+        DECLARE @ErrorMessage NVARCHAR(MAX);
+        SET @ErrorMessage = ERROR_MESSAGE();
+        PRINT @ErrorMessage;
+    END CATCH
 END;
