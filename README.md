@@ -1,6 +1,6 @@
 # Projeto Final de Base de Dados - Gestão de Núcleos<br />
 #### Realizador por Diogo Falcão (108712) e Matilde Teixeira (108193)
-Nota Final: xx
+Nota Final: 15,3
 <br />
 
 
